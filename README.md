@@ -1,4 +1,4 @@
-# ** Global Enterprise Network Architecture — ACME Corporation**
+# Global Enterprise Network Architecture — ACME Corporation
 ![Cisco](https://img.shields.io/badge/Cisco-Networking-blue?style=for-the-badge&logo=cisco)
 ![AWS](https://img.shields.io/badge/AWS-Cloud-orange?style=for-the-badge&logo=amazon-aws)
 ![VLAN](https://img.shields.io/badge/VLAN-Segmentation-red?style=for-the-badge)
