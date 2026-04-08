@@ -1,11 +1,4 @@
 # ** Global Enterprise Network Architecture — ACME Corporation**
-
-![GitHub Repo Size](https://img.shields.io/github/repo-size/yourusername/yourrepo?style=for-the-badge)
-![GitHub Stars](https://img.shields.io/github/stars/yourusername/yourrepo?style=for-the-badge)
-![GitHub Forks](https://img.shields.io/github/forks/yourusername/yourrepo?style=for-the-badge)
-![Issues](https://img.shields.io/github/issues/yourusername/yourrepo?style=for-the-badge)
-![License](https://img.shields.io/github/license/yourusername/yourrepo?style=for-the-badge)
-
 ![Cisco](https://img.shields.io/badge/Cisco-Networking-blue?style=for-the-badge&logo=cisco)
 ![AWS](https://img.shields.io/badge/AWS-Cloud-orange?style=for-the-badge&logo=amazon-aws)
 ![VLAN](https://img.shields.io/badge/VLAN-Segmentation-red?style=for-the-badge)
