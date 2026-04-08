@@ -1,6 +1,22 @@
 # ** Global Enterprise Network Architecture — ACME Corporation**
 
-**A Multi-Regional Cisco-Based Network Design with VLAN Segmentation, Adaptive Routing, and Hybrid Cloud Integration**
+![GitHub Repo Size](https://img.shields.io/github/repo-size/yourusername/yourrepo?style=for-the-badge)
+![GitHub Stars](https://img.shields.io/github/stars/yourusername/yourrepo?style=for-the-badge)
+![GitHub Forks](https://img.shields.io/github/forks/yourusername/yourrepo?style=for-the-badge)
+![Issues](https://img.shields.io/github/issues/yourusername/yourrepo?style=for-the-badge)
+![License](https://img.shields.io/github/license/yourusername/yourrepo?style=for-the-badge)
+
+![Cisco](https://img.shields.io/badge/Cisco-Networking-blue?style=for-the-badge&logo=cisco)
+![AWS](https://img.shields.io/badge/AWS-Cloud-orange?style=for-the-badge&logo=amazon-aws)
+![VLAN](https://img.shields.io/badge/VLAN-Segmentation-red?style=for-the-badge)
+![RIP](https://img.shields.io/badge/RIP-Routing-yellow?style=for-the-badge)
+![Python](https://img.shields.io/badge/Python-Automation-blue?style=for-the-badge&logo=python)
+![FAANG Ready](https://img.shields.io/badge/FAANG-Portfolio-green?style=for-the-badge&logo=linkedin)
+
+---
+
+**Overview:**  
+A **multi-regional, Cisco-based enterprise network** for ACME Corporation with VLAN segmentation, hybrid topologies, RIP routing, endpoint security, and AWS hybrid cloud integration.  
 
 ---
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/3f3ca795-2c3c-4937-bf1f-09e9574c419a" />
