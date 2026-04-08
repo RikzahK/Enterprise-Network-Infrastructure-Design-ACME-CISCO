@@ -4,7 +4,9 @@ A Multi-Regional Cisco-Based Network Architecture with Subnetting, VLAN Segmenta
 
 
 ---
+<img width="1067" height="683" alt="image" src="https://github.com/user-attachments/assets/aecc1cd6-9a56-4ffa-bfd4-1fb825f02940" />
 
+---
 ## Overview
 
 This repository documents a high-performance, secure, and scalable global network architecture designed for **ACME Corporation**. It spans three international offices (UK, US, India) and integrates hybrid network topologies, VLAN segmentation, dynamic routing, and cloud-based services to ensure enterprise-level reliability and security.
@@ -44,7 +46,8 @@ This repository documents a high-performance, secure, and scalable global networ
 | 30      | Finance   | Encrypted financial data streams |
 
 **Visual Placeholder:**  
-[Insert Global Network Topology Diagram here]
+<img width="1234" height="750" alt="image" src="https://github.com/user-attachments/assets/fc60d69d-9bf8-46f3-9439-3f319738eafd" />
+
 
 ---
 
@@ -70,9 +73,62 @@ This repository documents a high-performance, secure, and scalable global networ
 - **Wireless:** IEEE 802.11 standards for Wi-Fi access  
 
 **Visual Placeholder:**  
-[Insert Ping Test / Connectivity Verification Screenshot]
+<img width="1051" height="458" alt="image" src="https://github.com/user-attachments/assets/7f9638ff-ea06-4b7d-945d-9dfe46bb7356" />
+<img width="1040" height="203" alt="image" src="https://github.com/user-attachments/assets/e0174b48-7d26-431f-bcd7-ed89ebf408ea" />
+IP ADDRESS:
+IP address has been configured for all devices along with Static MAC Address Configuration. For critical
+network devices such as servers and printers I have configured static MAC addresses on the ports, restrict
+violation mode (will not accept traffic from the port resulted in violation & not shutdown as well) and set a
+limit on maximum mac addresses allowed. Implementing port-security measures can help enhance network
+PG:6
+security and prevent unauthorized access to network resources. This ensures that only the specified devices
+can connect to those ports, providing an additional layer of security
+<img width="1053" height="383" alt="image" src="https://github.com/user-attachments/assets/3e8bf3a0-a99d-4336-b5fb-1a2aa2d1c929" />
+
+Next, I have provided subnetting for each department (VLANs) and configured intra-VLAN for
+communication within departments
+
+<img width="1304" height="565" alt="image" src="https://github.com/user-attachments/assets/4871eb38-2cd7-4b3c-9051-3be8eb00a177" />
 
 ---
+Why is RIP chosen over other Protocols?
+RIP is a routing protocol used to route data over a computer network and chooses paths based on the number
+of hops finding the most efficient way to route data over a network. It offers features such as fast convergence,
+scalability, and efficient use of network resources. Most importantly, ACME can benefit from RIP's
+scalability, accommodating their network growth and evolving needs.
+RIP CONFIGURATION
+
+<img width="1359" height="367" alt="image" src="https://github.com/user-attachments/assets/582a8972-15b2-4df6-805a-4d92de724e1f" />
+
+Router configuration for security
+<img width="1350" height="181" alt="image" src="https://github.com/user-attachments/assets/fe203766-2d80-4f10-bd14-a1b372dd7c3b" />
+
+BUDGETING:
+THE FOLLWING TABEL SIGGESTS BIDGETING FOR ACME The ACME Corporation network infrastructure utilizes professional-grade hardware, including the Synology RT2600ac router for high-performance VPN and security, Cisco Catalyst 9000 Series switches for enterprise VLAN management and advanced network control, and Dell OptiPlex 3020 PCs for reliable staff endpoints. Security appliances and wireless access points will be selected based on specific coverage and protection requirements, while Samsung Galaxy S22 Ultra smartphones provide high-end mobile connectivity, and printers will be chosen to meet corporate printing needs. Estimated costs for the defined devices are $272 for the router, $2,400 for switches, $800 per PC, and $1,000 per smartphone, with TBD items pending specification. 
+<img width="692" height="598" alt="image" src="https://github.com/user-attachments/assets/065231bf-1a86-4806-8aa2-5760f4c8c804" />
+
+SECURITY RECOMMENDATIONS:
+In order to ensure a secure environment for ACME Corporation's operations, the following security
+recommendations can be implemented:
+ Implement Private VLANs: Private VLANs restrict communication between ports within the same
+VLAN, increasing overall network security and providing enhanced security.
+ Separate Management and User Data Traffic: It is crucial to separate management traffic from user data
+traffic by assigning the management functions to a separate VLAN (to secure remote access for
+administrative purposes), different from the VLAN used by regular users.
+ secure remote access for administrative purposes.
+ Implement strong user authentication mechanisms, such as two-factor authentication (2FA), to ensure
+that only authorized individuals can access network resources. Additionally, establish access control
+policies to define user privileges & restrict access to sensitive data based on job roles and responsibilities
+ Utilize Encryption Techniques: Implement encryption mechanisms, such as Transport Layer Security
+(TLS) or Secure Sockets Layer (SSL), to secure communication across offices and between departments.
+Router configuration for security
+PG:9
+This ensures that data is protected during transit and mitigates the risk of unauthorized access or
+eavesdropping.
+ Implement Firewall Solutions: Deploy firewalls at network boundaries to control incoming and outgoing
+traffic. Use firewall rules and access control policies to restrict access to network resources based on
+security policies. This helps prevent unauthorized access and protects against external threats.
+All these measures will further enhance the overall security posture of the ACME organization.
 
 ## 4. Security Architecture
 
@@ -127,7 +183,8 @@ Hybrid cloud approach ensures global resource availability:
 - Security policies enforced via simulated attacks  
 
 **Visual Placeholder:**  
-[Insert Testing & Validation Screenshots]
+<img width="1645" height="394" alt="image" src="https://github.com/user-attachments/assets/827e8b32-872e-4fb9-821c-bbe8eea64d4c" />
+
 
 ---
 
